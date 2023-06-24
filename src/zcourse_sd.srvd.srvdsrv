@@ -1,0 +1,7 @@
+@EndUserText.label: 'Courses service definintion'
+define service Zcourse_sd {
+  expose zcons_course as Course;
+  expose zcons_schedule as Schedule;
+  expose I_Country as Country;
+  expose I_Currency as Currency;
+}
